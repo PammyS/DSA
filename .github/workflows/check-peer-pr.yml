@@ -1,4 +1,4 @@
-name: Auto PR to masterB
+name: Auto PR check
 
 on:
   pull_request:
