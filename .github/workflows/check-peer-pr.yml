@@ -2,9 +2,10 @@ name: Auto PR check
 
 on:
   pull_request:
-    types: [opened]
+    types: [synchronize, opened, ready_for_review, reopened]
     branches:
       - masterA
+      - masterB
 
 jobs:
   create-mirror-pr:
