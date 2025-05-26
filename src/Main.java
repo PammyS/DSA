@@ -60,6 +60,8 @@ public class Main {
                 result[i] = stack.peek();
             }
         }
+
+
         result[arr.length-1] = max > arr[arr.length-1]?max:-1;
         return result;
     }
